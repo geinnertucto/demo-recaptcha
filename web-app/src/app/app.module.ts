@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     RecaptchaV3Module,
   ],
   providers: [
-    { provide: RECAPTCHA_V3_SITE_KEY, useValue: 'xxxxx' },
+    { provide: RECAPTCHA_V3_SITE_KEY, useValue: 'SITE_KEY' },
   ],
   bootstrap: [AppComponent]
 })

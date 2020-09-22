@@ -61,7 +61,7 @@ export class AppComponent implements OnInit, OnDestroy {
     if (!token) {
       return '(empty)';
     }
-
+    console.log(token)
     return `${token.substr(0, 20)}...${token.substr(-20)}`;
   }
 }
